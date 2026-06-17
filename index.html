@@ -6,7 +6,7 @@
 
   <title>Taoyu Su</title>
 
-  <meta name="author" content="Jon Barron">
+  <meta name="author" content="sutaoyu">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -119,7 +119,9 @@
 
               <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle">
-                  <img src="src/DMKGC.jpg" alt="clean-usnob" width="320" height="110">
+                  <button type="button" class="paper-thumb" data-full="src/DMKGC.jpg" aria-label="Enlarge figure">
+                    <img src="src/DMKGC.jpg" alt="DMKGC figure" width="320" height="110">
+                  </button>
                 </td>
                 <td width="75%" valign="middle">
                   <papertitle>Conditional Diffusion Guided Knowledge Transfer for Multi-Domain Knowledge Graph
@@ -150,7 +152,9 @@
 
               <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle">
-                  <img src="src/IMKGC.jpg" alt="clean-usnob" width="320" height="110">
+                  <button type="button" class="paper-thumb" data-full="src/IMKGC.jpg" aria-label="Enlarge figure">
+                    <img src="src/IMKGC.jpg" alt="IMKGC figure" width="320" height="110">
+                  </button>
                 </td>
                 <td width="75%" valign="middle">
                   <papertitle>Information-Theoretic Minimal Sufficient Representation for Multi-Domain Knowledge Graph
@@ -180,7 +184,9 @@
 
               <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle">
-                  <img src="src/LLM4MEM.png" alt="clean-usnob" width="320" height="110">
+                  <button type="button" class="paper-thumb" data-full="src/LLM4MEM.png" aria-label="Enlarge figure">
+                    <img src="src/LLM4MEM.png" alt="LLM4MEM figure" width="320" height="110">
+                  </button>
                 </td>
                 <td width="75%" valign="middle">
                   <papertitle>Unlocking the Power of Large Language Models for Multi-table Entity Matching
@@ -212,7 +218,9 @@
 
               <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle">
-                  <img src="src/CDMEA.jpg" alt="clean-usnob" width="320" height="110">
+                  <button type="button" class="paper-thumb" data-full="src/CDMEA.jpg" aria-label="Enlarge figure">
+                    <img src="src/CDMEA.jpg" alt="CDMEA figure" width="320" height="110">
+                  </button>
                 </td>
                 <td width="75%" valign="middle">
                   <papertitle>Mitigating Modality Bias in Multi-modal Entity Alignment from a Causal Perspective
@@ -245,7 +253,9 @@
 
               <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle">
-                  <img src="src/IBMEA.png" alt="clean-usnob" width="320" height="140">
+                  <button type="button" class="paper-thumb" data-full="src/IBMEA.png" aria-label="Enlarge figure">
+                    <img src="src/IBMEA.png" alt="IBMEA figure" width="320" height="140">
+                  </button>
                 </td>
                 <td width="75%" valign="middle">
                   <papertitle>IBMEA: Exploring Variational Information Bottleneck for Multi-modal Entity Alignment
@@ -277,7 +287,9 @@
 
               <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle">
-                  <img src="src/LoginMEA.jpg" alt="clean-usnob" width="320" height="150">
+                  <button type="button" class="paper-thumb" data-full="src/LoginMEA.jpg" aria-label="Enlarge figure">
+                    <img src="src/LoginMEA.jpg" alt="LoginMEA figure" width="320" height="150">
+                  </button>
                 </td>
                 <td width="75%" valign="middle">
                   <papertitle>LoginMEA: Local-to-Global Interaction Network for Multi-modal Entity Alignment
@@ -341,6 +353,12 @@
               </tr>
             </tbody>
           </table>
+
+  <div id="lightbox" class="lightbox hidden" role="dialog" aria-modal="true" aria-label="Image preview">
+    <button type="button" id="lightbox-close" class="lightbox-close" aria-label="Close">&times;</button>
+    <img id="lightbox-image" class="lightbox-image" src="" alt="">
+  </div>
+  <script src="lightbox.js"></script>
 </body>
 
 </html>
