@@ -112,6 +112,23 @@ name {
   font-size: 32px;
 }
 
+h1.profile-name {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.2;
+}
+
+h1.profile-name .name-en {
+  font-size: 28px;
+  color: #444;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .one {
   width: 160px;
   height: 160px;
