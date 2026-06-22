@@ -221,3 +221,73 @@ body.lightbox-open {
   padding-left: 2em;
   margin-top: 4px;
 }
+
+.service-section-list > li,
+.mentorship-list > li {
+  margin-bottom: 14px;
+}
+
+.service-section-list > li:last-child,
+.mentorship-list > li:last-child {
+  margin-bottom: 0;
+}
+
+.service-section-list > li > strong,
+.mentorship-list > li > strong {
+  display: block;
+  margin-bottom: 6px;
+  color: #222;
+}
+
+.service-items,
+.mentorship-students {
+  margin: 8px 0 0 0;
+  padding-left: 2em;
+  list-style-type: disc;
+}
+
+.service-items.service-tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-left: 1.5em;
+}
+
+.service-items.service-tags li {
+  margin-bottom: 0;
+}
+
+.service-tag {
+  display: inline-block;
+  padding: 3px 12px;
+  background: #f0f6fc;
+  border: 1px solid #e3eef8;
+  border-radius: 14px;
+  font-size: 13px;
+  color: #333;
+}
+
+.service-items li,
+.mentorship-students li {
+  margin-bottom: 6px;
+  line-height: 1.6;
+}
+
+.service-items li:last-child,
+.mentorship-students li:last-child {
+  margin-bottom: 0;
+}
+
+.mentorship-intro {
+  margin: 0 0 12px 0;
+  color: #444;
+}
+
+.student-tag {
+  font-weight: 700;
+}
+
+.student-tag::after {
+  content: "：";
+}
