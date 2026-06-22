@@ -210,3 +210,14 @@ span.highlight {
 body.lightbox-open {
   overflow: hidden;
 }
+
+.service-list {
+  margin: 16px 0;
+  padding-left: 20px;
+}
+
+.service-detail {
+  display: block;
+  padding-left: 2em;
+  margin-top: 4px;
+}
