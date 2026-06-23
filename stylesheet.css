@@ -387,3 +387,25 @@ body.lightbox-open {
   color: #888;
   margin: 0;
 }
+
+.highlights-list > li {
+  margin-bottom: 14px;
+  line-height: 1.6;
+}
+
+.highlights-list > li:last-child {
+  margin-bottom: 0;
+}
+
+.highlight-zh {
+  margin: 0 0 4px 0;
+  color: #222;
+}
+
+.highlight-en {
+  margin: 0;
+  font-size: 13px;
+  font-style: italic;
+  color: #666;
+  line-height: 1.6;
+}
