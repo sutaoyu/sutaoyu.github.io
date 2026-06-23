@@ -291,3 +291,54 @@ body.lightbox-open {
 .student-tag::after {
   content: "：";
 }
+
+.calligraphy-intro {
+  margin: 0 0 20px 0;
+  color: #444;
+  line-height: 1.7;
+}
+
+.calligraphy-figure {
+  margin: 0;
+  text-align: center;
+}
+
+.calligraphy-thumb {
+  display: inline-block;
+  line-height: 0;
+}
+
+.calligraphy-image {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 4px;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  background: #fff;
+}
+
+.calligraphy-caption {
+  margin-top: 14px;
+}
+
+.calligraphy-quote {
+  font-size: 17px;
+  color: #333;
+  letter-spacing: 0.12em;
+  margin: 0 0 8px 0;
+}
+
+.calligraphy-quote-en {
+  font-size: 14px;
+  font-style: italic;
+  color: #555;
+  line-height: 1.7;
+  max-width: 520px;
+  margin: 0 auto 8px;
+}
+
+.calligraphy-meta {
+  font-size: 13px;
+  color: #888;
+  margin: 0;
+}
