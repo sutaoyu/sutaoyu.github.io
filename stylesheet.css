@@ -130,9 +130,12 @@ heading {
 }
 
 papertitle {
+  display: block;
   font-family: inherit;
   font-size: 14px;
   font-weight: 700;
+  line-height: 1.5;
+  margin: 0 0 8px;
 }
 
 name {
@@ -247,9 +250,23 @@ h1.profile-name .name-en {
   border-top: 1px solid #f0f0f0;
 }
 
+.paper-content-cell {
+  vertical-align: top;
+}
+
+.paper-authors {
+  margin: 0 0 6px;
+  line-height: 1.5;
+}
+
+.paper-venue {
+  margin: 0;
+  line-height: 1.5;
+}
+
 .paper-links {
   display: block;
-  margin: 12px 0 8px;
+  margin: 12px 0 10px;
 }
 
 .paper-link {
@@ -270,8 +287,9 @@ h1.profile-name .name-en {
 }
 
 .paper-desc {
-  margin: 8px 0 0;
+  margin: 0;
   color: #444;
+  line-height: 1.6;
 }
 
 .one {
@@ -601,10 +619,5 @@ body.lightbox-open {
   .paper-table .paper-thumb img {
     max-width: 100%;
     height: auto;
-  }
-
-  papertitle {
-    display: block;
-    line-height: 1.5;
   }
 }
