@@ -248,7 +248,8 @@ h1.profile-name .name-en {
 }
 
 .paper-links {
-  margin: 8px 0;
+  display: block;
+  margin: 12px 0 8px;
 }
 
 .paper-link {
@@ -561,5 +562,49 @@ body.lightbox-open {
 
   .paper-row td {
     padding: 16px 12px;
+  }
+
+  .paper-table .paper-row {
+    display: block;
+    width: 100%;
+  }
+
+  .paper-table .paper-row td {
+    display: block;
+    width: 100% !important;
+    padding: 0;
+  }
+
+  .paper-table .paper-row td:first-child {
+    padding-bottom: 12px;
+    text-align: center;
+  }
+
+  .paper-table .paper-row td:last-child {
+    padding-bottom: 16px;
+  }
+
+  .paper-table .paper-row + .paper-row {
+    border-top: 1px solid #f0f0f0;
+    padding-top: 16px;
+    margin-top: 8px;
+  }
+
+  .paper-table .paper-row + .paper-row td {
+    border-top: none;
+  }
+
+  .paper-table .paper-thumb {
+    display: inline-block;
+  }
+
+  .paper-table .paper-thumb img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  papertitle {
+    display: block;
+    line-height: 1.5;
   }
 }
